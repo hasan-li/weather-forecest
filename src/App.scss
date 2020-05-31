@@ -1,0 +1,116 @@
+body {
+  background: #EEF2F7;
+}
+
+.App {
+  background: #EEF2F7;
+  margin: 25px 0;
+}
+
+.search {
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.input-field {
+  font-size: 1.0em;
+  margin: 10px auto;
+  min-width: 200px;
+  border: 1px solid #64646D;
+  border-radius: 10px;
+  padding: 10px 35px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.button {
+  &__neutral {
+    font-size: 1.0em;
+    color: #64646D;
+    border: 1px solid #64646D;
+    border-radius: 10px;
+    padding: 10px 35px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+    &:hover {
+      background: #E5E5EA;
+      color: #067BFF;
+      cursor: pointer;
+    }
+  }
+}
+
+.chart {
+  margin: 0 auto;
+}
+
+.error {
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  color: #f00;
+}
+
+.city {
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+
+  &__country {
+    color: #999999;
+  }
+}
+
+.forecast {
+  border-radius: 7px;
+  text-align: center;
+  width: 80%;
+  background: #ffffff;
+
+  margin: 40px auto;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06);
+
+  &__weather {
+    display: flex;
+    justify-content: center;
+
+    &__icon {}
+
+    &__name {}
+  }
+
+  &__main {
+    display: flex;
+    font-size: .9em;
+    flex-wrap: nowrap;
+    height: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    &__item {
+
+      &__label {
+        color: #999999;
+        width: 100%;
+      }
+
+      &__value {
+        width: 100%;
+      }
+    }
+  }
+
+  &__date {
+    font-size: 0.8em;
+    color: #999999;
+  }
+}
+
